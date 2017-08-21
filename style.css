@@ -51,6 +51,10 @@ html, body{
 		transition: .3s color;
 	}
 
+	.content .large_text{
+		font-size: 145%;
+	}
+
 	.sidebar{
 		padding: 1.5%;
 		font-size: 100%;
