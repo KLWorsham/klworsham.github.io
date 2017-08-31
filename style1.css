@@ -55,6 +55,33 @@ html, body{
 		font-size: 145%;
 	}
 
+
+		button.portfolio{
+			-moz-appearance: button;
+	  		appearance: button;
+		    background-color: transparent;
+		    color: #bcbbb7;
+			font-family: 'Julius Sans One', sans-serif;
+		    padding: 2%;
+		    width: 30%;
+		    border: 3px double;
+		    border-color: rgba(188,187,183, 0.6);
+		    border-radius: 17px;
+		    text-align: left;
+		    outline: none;
+		    font-size: 100%;
+		    transition: 0.4s;
+		    margin-top:0.5%;
+		}
+
+		button.portfolio, button.portfolio:hover {
+		    /*background-color: rgba(153,58,58, 0);*/
+		    background-color: rgba(225,225,225, 0.2);
+		    border: 3px double;
+		    border-color: rgba(188,187,183, 1);
+		    border-radius: 6px;
+		}
+
 		/*GALLERY*/
 
 		button.accordion {
