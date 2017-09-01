@@ -65,6 +65,11 @@
 			font-size: 145%;
 		}
 
+			.photo{
+				height:0px; 
+				width:0px;
+				overflow: hidden;
+			}
 
 			button.portfolio{
 				-moz-appearance: button;
