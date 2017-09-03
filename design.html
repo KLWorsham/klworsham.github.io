@@ -31,6 +31,10 @@
 
 		</script>
 
+		<script> <!--Current link-->
+			$("a[href*='" + location.pathname + "']").addClass("current");
+		</script>
+
 	</head>
 	<body>
 		<div id="header">
@@ -47,7 +51,7 @@
 					 <ul>
 				        <li ><a href="index.html">Home</a></li>
 				        <li ><a href="about.html">About</a></li>
-				        <li ><a href="portfolio.html">Portfolio</a></li>
+				        <li ><a href="portfolio.html" class="current">Portfolio</a></li>
 				        <li ><a href="CV.html">CV</a></li>
 				        <li ><a href="contact.html">Contact</a></li>
 					</ul>
@@ -64,7 +68,10 @@
 			</div>
 
 			<div class="content">
-			
+				<p>
+					&nbsp;&nbsp;<a href="portfolio.html">&#9756&nbsp;&nbsp;Back to portfolio</a> 
+					<a href="writing.html"><span style="float: right">Go to writing&nbsp;&nbsp;&#9758&nbsp;</span></a>
+				</p>
 				<button class="accordion">Infographic</button>
 					<div class="panel">
 						<div class="gallery_container">
